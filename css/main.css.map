@@ -9,7 +9,8 @@
         "../sass/components/_features.scss",
         "../sass/components/_our-works.scss",
         "../sass/components/_team.scss",
-        "../sass/components/_partners.scss"
+        "../sass/components/_partners.scss",
+        "../sass/components/_footer.scss"
     ],
     "names": [],
     "file": "main.css"
