@@ -8,6 +8,16 @@ $bg-color: #2f303a;
 $btn-bg: #f5f4fa;
 $cubic: cubic-bezier(0.4, 0, 0.2, 1);
 
+@mixin title-style {
+
+  margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    color: $black-secondary;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
