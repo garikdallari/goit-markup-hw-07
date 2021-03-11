@@ -11,13 +11,8 @@
     padding-bottom: 60px;
 }
 
-.logo {
-    display: inline-block;
-    margin-bottom: 20px;
-    
-    &--color {
-        color: $white-primary;
-    }
+.footer__logo {
+    color: $white-primary;
 }
 
 .footer-adress__item {
@@ -28,6 +23,10 @@
 
     &:not(:last-child) {
         margin-bottom: 9px;
+    }
+
+    &:first-child {
+        margin-top: 20px;
     }
 }
 .footer-adress__link {

@@ -4,7 +4,6 @@
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid red;
 }
 
 .visually-hidden {
@@ -68,15 +67,10 @@ form {
   border-bottom: 1px solid #ececec;
 }
 
-.header-nav,
-.nav-list,
-.nav-contacts {
+.header-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.header-nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -95,11 +89,14 @@ form {
   color: #2196f3;
 }
 
-.logo--color {
+.header__logo {
   color: #000;
 }
 
 .nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin-right: 305px;
   margin-left: 93px;
 }
@@ -138,6 +135,12 @@ form {
   height: 4px;
   border-radius: 2px;
   background-color: #2196f3;
+}
+
+.nav-contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .nav-contacts__item:not(:last-child) {
@@ -476,12 +479,7 @@ form {
   padding-bottom: 60px;
 }
 
-.logo {
-  display: inline-block;
-  margin-bottom: 20px;
-}
-
-.logo--color {
+.footer__logo {
   color: #fff;
 }
 
@@ -494,6 +492,10 @@ form {
 
 .footer-adress__item:not(:last-child) {
   margin-bottom: 9px;
+}
+
+.footer-adress__item:first-child {
+  margin-top: 20px;
 }
 
 .footer-adress__link {
@@ -633,5 +635,53 @@ form {
 
 .footerForm__icon {
   margin-left: 10px;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.2);
+  -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
+  padding: 40px;
+  width: 528px;
+  height: 581px;
+  background-color: #fff;
+  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.backdrop.is-hidden .modal {
+  -webkit-transform: translate(-50%, -50%) scale(0.9);
+          transform: translate(-50%, -50%) scale(0.9);
+}
+
+.modal__title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 30px;
 }
 /*# sourceMappingURL=main.css.map */
