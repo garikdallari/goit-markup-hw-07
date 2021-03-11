@@ -91,7 +91,6 @@
 }
 
 .footerForm__email {
-    margin-right: 12px;
     margin-top: 20px;
     min-width: 358px;
     min-height: 50px;
@@ -112,6 +111,7 @@
 
 .footerForm__button {
     display: inline-flex;
+    transform: translate(370px, -50px);
     align-items: center;
     padding: 10px 32px;
     min-width: 200px;
