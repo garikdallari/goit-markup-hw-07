@@ -81,18 +81,6 @@ form {
   padding-bottom: 25px;
 }
 
-.logo {
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  color: #2196f3;
-}
-
-.header__logo {
-  color: #000;
-}
-
 .nav-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -165,6 +153,22 @@ form {
 .nav-contacts__icon {
   margin-right: 10px;
   fill: currentColor;
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: #2196f3;
+}
+
+.header__logo {
+  color: #000;
+}
+
+.footer__logo {
+  color: #fff;
 }
 
 .hero {
@@ -477,10 +481,6 @@ form {
 .footer-wrapper {
   padding-top: 60px;
   padding-bottom: 60px;
-}
-
-.footer__logo {
-  color: #fff;
 }
 
 .footer-adress__item {
