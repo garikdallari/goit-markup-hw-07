@@ -40,15 +40,13 @@
     <main class="heroPortfolio">
         <div class="container">
         <h1 class="visually-hidden">Наши проекты</h1>
-        <div class="hero__listWrapper">
-            <ul class="hero-list">
-            <li><button class="hero-list__button" type="button">Все</button></li>
-            <li><button class="hero-list__button" type="button">Веб-сайты</button></li>
-            <li><button class="hero-list__button" type="button">Приложения</button></li>
-            <li><button class="hero-list__button" type="button">Дизайн</button></li>
-            <li><button class="hero-list__button" type="button">Маркетинг</button></li>
+            <ul class="hero-filter">
+            <li class="hero-filter__item"><button class="hero-filter__button" type="button">Все</button></li>
+            <li class="hero-filter__item"><button class="hero-filter__button" type="button">Веб-сайты</button></li>
+            <li class="hero-filter__item"><button class="hero-filter__button" type="button">Приложения</button></li>
+            <li class="hero-filter__item"><button class="hero-filter__button" type="button">Дизайн</button></li>
+            <li class="hero-filter__item"><button class="hero-filter__button" type="button">Маркетинг</button></li>
         </ul>
-        </div>
         <div class="hero-thumb">
         <ul class="hero-cards">
             <li class="hero-cards__item">
@@ -71,7 +69,7 @@
                     </div>
                 <div class="card-content">
                 <h2 class="hero-cards__title">Постер New Orlean vs Golden Star</h2>
-                <p class="hero-cards__text">Дизайн</p>
+                <p class="hero-cards__subtitle">Дизайн</p>
                 </div>
             </li>
             <li class="hero-cards__item">
@@ -83,7 +81,7 @@
                     </div>
                 <div class="card-content">
                 <h2 class="hero-cards__title">Ресторан Seafood</h2>
-                <p class="hero-cards__text">Приложение</p>
+                <p class="hero-cards__subtitle">Приложение</p>
                 </div>
             </li>
             <li class="hero-cards__item">
@@ -95,7 +93,7 @@
                 </div>
                 <div class="card-content">
                 <h2 class="hero-cards__title">Проект Prime</h2>
-                <p class="hero-cards__text">Маркетинг</p>
+                <p class="hero-cards__subtitle">Маркетинг</p>
                 </div>
             </li>
             <li class="hero-cards__item">
@@ -107,7 +105,7 @@
                 </div>
                 <div class="card-content">
                 <h2 class="hero-cards__title">Проект Boxes</h2>
-                <p class="hero-cards__text">Приложение</p>
+                <p class="hero-cards__subtitle">Приложение</p>
                 </div>
             </li>
             <li class="hero-cards__item">
@@ -119,7 +117,7 @@
                 </div>
                 <div class="card-content">
                 <h2 class="hero-cards__title">Inspiration has no Borders</h2>
-                <p class="hero-cards__text">Веб-сайт</p>
+                <p class="hero-cards__subtitle">Веб-сайт</p>
                 </div>
             </li>
             <li class="hero-cards__item">
@@ -131,19 +129,19 @@
                 </div>
                 <div class="card-content">
                 <h2 class="hero-cards__title">Издание Limited Edition</h2>
-                <p class="hero-cards__text">Дизайн</p>
+                <p class="hero-cards__subtitle">Дизайн</p>
                 </div>
             </li>
             <li class="hero-cards__item">
                 <div class="hero-cards__overlay">
                     <img src="./images/img7.jpg" alt="img" width="370">
-                    <p class="hero-cards__-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту
+                    <p class="hero-cards__text">Технокряк это современная площадка распространения коронавируса. Компании используют эту
                         платформу для цифрового
                         шпионажа и атак на защищённые сервера конкурентов.</p>
                 </div>
                 <div class="card-content">
                 <h2 class="hero-cards__title">Проект LAB</h2>
-                <p class="hero-cards__text">Маркетинг</p>
+                <p class="hero-cards__subtitle">Маркетинг</p>
                 </div>
             </li>
             <li class="hero-cards__item">
@@ -155,7 +153,7 @@
                 </div>
                 <div class="card-content">
                 <h2 class="hero-cards__title">Growing Business</h2>
-                <p class="hero-cards__text">Приложение</p>
+                <p class="hero-cards__subtitle">Приложение</p>
                 </div>
             </li>
 
@@ -165,74 +163,72 @@
 
     </main>
     <!-- Футер -->
-<footer class="footer">
-    <div class="container">
-        <div class="footer-cnt">
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-cnt">
             <div class="footer-wrapper">
                 <a href="./index.html" class="logo">Web<span class="logo footer__logo">Studio</span></a>
-                <address>
-                    <ul class="footer__list">
-                        <li class="footer__adress">г. Киев, пр-т Леси Украинки, 26</li>
-                        <li><a class="footer__link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                        <li><a class="footer__link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-                    </ul>
-                </address>
-            </div>
-            <div class="footer-links">
-                <h2 class="footer-links__title">Присоединяйтесь</h2>
-                <ul class="footer-socials">
-                    <li class="footer-socials__item">
-                        <a href="#">
-                            <svg class="footer-socials__icon" width="20px" height="20px">
-                                <use href="./images/symbol-defs.svg#icon-instagram"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="footer-socials__item">
-                        <a href="#">
-                            <svg class="footer-socials__icon" width="20px" height="20px">
-                                <use href="./images/symbol-defs.svg#icon-twitter"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="footer-socials__item">
-                        <a href="#">
-                            <svg class="footer-socials__icon" width="20px" height="20px">
-                                <use href="./images/symbol-defs.svg#icon-facebook"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="footer-socials__item">
-                        <a href="#">
-                            <svg class="footer-socials__icon" width="20px" height="20px">
-                                <use href="./images/symbol-defs.svg#icon-linkedin"></use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="subscribe">
-                <h2 class="subscribe__title">Подпишитесь на рассылку</h2>
-
-                <form>
-                    <label class="subscribe__label">
-                        <input class="subscribe__email" type="email" name="email" placeholder="E-mail">
-
-                    </label>
-
-                </form>
-                <button class="subscribe__button" type="button">Подписаться
-                    <svg class="subscribe__icon" width="24px" height="24px">
-                        <use href="./images/symbol-defs.svg#icon-send"></use>
-                    </svg>
-                </button>
-
-            </div>
-
-
+        <address>
+            <ul class="footer-adress">
+            <li class="footer-adress__item">г. Киев, пр-т Леси Украинки, 26</li>
+            <li class="footer-adress__item"><a class="footer-adress__link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="footer-adress__item"><a class="footer-adress__link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+           </ul>
+        </address>
         </div>
+        <div class="footer-follow">
+            <h2 class="footer-follow__title">Присоединяйтесь</h2>
+            <ul class="footer-socials">
+                <li class="footer-socials__item">
+                    <a class="footer-socials__link" href="#">
+                    <svg class="footer-socials__icon" width="20px" height="20px">
+                        <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                    </svg>
+                    </a>
+                </li>
+                <li class="footer-socials__item">
+                    <a class="footer-socials__link" href="#">
+                    <svg class="footer-socials__icon" width="20px" height="20px">
+                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                    </svg>
+                    </a>
+                </li>
+                <li class="footer-socials__item">
+                    <a class="footer-socials__link" href="#">
+                    <svg class="footer-socials__icon" width="20px" height="20px">
+                        <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                    </svg>
+                    </a>
+                </li>
+                <li class="footer-socials__item">
+                    <a class="footer-socials__link" href="#">
+                    <svg class="footer-socials__icon" width="20px" height="20px">
+                        <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                    </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="subscribe">
+    <h2 class="subscribe__title footer-follow__title">Подпишитесь на рассылку</h2>
+    
+    <form class="footerForm">
+    <label class="footerForm__label">
+        <input class="footerForm__email"  type="email" name="email" placeholder="E-mail" >
+        
+    </label>
+    
+    </form>
+    <button class="footerForm__button" type="button">Подписаться
+        <svg class="footerForm__icon" width="24px" height="24px">
+            <use href="./images/symbol-defs.svg#icon-send"></use>
+        </svg>
+     </button>
+        </div>
+        
+        
     </div>
-</footer>
-
+        </div>
+    </footer>
 </body>
 </html>
