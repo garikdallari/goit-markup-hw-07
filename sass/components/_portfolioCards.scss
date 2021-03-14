@@ -1,10 +1,6 @@
 .hero-cards {
     display: flex;
     flex-wrap: wrap;
-
-    &:nth-last-child(-n + 3) {
-        padding-bottom: 94px;
-    }
 }
 
 .hero-cards__overlay {

@@ -1,11 +1,14 @@
-.partners__title {
+.partners {
     padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.partners__title {
    @include title-style;
 }
 
 .partners-site {
     display: inline-flex;
-    padding-bottom: 94px;
 
     &__item:not(:last-child) {
         margin-right: 30px;
@@ -27,7 +30,6 @@
     &:focus {
         border: 1px solid $blue-accent;
         border-radius: 4px;
-        outline: none;
         fill: $blue-accent;
     }
 }

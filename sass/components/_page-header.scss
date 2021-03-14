@@ -4,7 +4,6 @@
 
 .header-nav {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding-top: 25px;
   padding-bottom: 25px;
@@ -12,7 +11,6 @@
 
 .nav-list {
   display: flex;
-  margin-right: 305px;
   margin-left: 93px;
 
 &__item:not(:last-child) {
@@ -53,6 +51,7 @@ margin-right: 50px;
  }
 .nav-contacts {
   display: flex;
+  margin-left: auto;
 }
  .nav-contacts__item:not(:last-child) {
     margin-right: 50px;

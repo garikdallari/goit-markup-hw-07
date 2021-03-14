@@ -2,6 +2,8 @@
     text-align: center;
     height: 600px;
     max-width: 1600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     background: #c4c4c4;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
     rgba(47, 48, 58, 0.4)), 
@@ -9,8 +11,7 @@
 }
 
 .hero-wrapper {
-    padding-top: 200px;
-    padding-bottom: 200px;
+   margin: 0 auto;
 }
 
 .hero__title {
