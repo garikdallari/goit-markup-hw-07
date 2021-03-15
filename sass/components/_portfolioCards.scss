@@ -18,7 +18,13 @@
     }
 }
 
-.hero-cards__item:hover .hero-cards__overlay::before {
+.hero-cards__link {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-cards__link:hover .hero-cards__overlay::before,
+.hero-cards__link:focus .hero-cards__overlay::before {
     transform: translateY(0);
 }
 
@@ -36,7 +42,8 @@
 
 }
 
-.hero-cards__item:hover .hero-cards__text {
+.hero-cards__link:hover .hero-cards__text,
+.hero-cards__link:focus .hero-cards__text {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
